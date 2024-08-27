@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: "DM Sans", sans-serif !important;
+}
+
+header ul.active {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0px;
+    top: 73px;
+    animation: navbarOpen cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
+    flex-direction: column;
+    padding: 200px 0 !important;
+}
+
+header ul li a.active {
+    font-weight: 600;
+    color: #112E26;
+    border-bottom: 2px solid #112E26;
+}
+
+.loader {
+    display: inline-block;
+    animation: spin .7s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes navbarOpen {
+    0% {
+        left: -100px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+header ul.active li {
+    padding: 10px 0;
+    font-size: 1.3rem !important;
+}
+
+header ul.active li:hover {
+    cursor: pointer;
+}
+
+.custom-scroller::-webkit-scrollbar {
+    width: 10px;
+}
+
+.custom-scroller::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.custom-scroller::-webkit-scrollbar-thumb {
+    background-color: rgb(201, 201, 203);
+    border-radius: 10px;
+    cursor: pointer;
+}
