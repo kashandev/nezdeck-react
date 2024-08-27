@@ -1,6 +1,6 @@
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
-import { Handshake, Headset, Play, Radio, ShieldCheck } from 'lucide-react';
+import { Handshake, Headset, Radio, ShieldCheck } from 'lucide-react';
 import TabContainer from '../components/Tabs';
 import Image from '../components/Image';
 const About = () => {

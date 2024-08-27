@@ -1,8 +1,6 @@
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
-import { Calendar, Check, ChevronRight, CircleDot, Dot, MessageSquareDot } from 'lucide-react';
-import Image from '../components/Image';
-import Button from '../components/Button';
+import {  ChevronRight, CircleDot } from 'lucide-react';
 const ProductDetail = () => {
 
     return (
