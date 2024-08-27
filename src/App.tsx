@@ -9,8 +9,6 @@ const Contact = lazy(() => import('./company/Contact'));
 const Policy = lazy(() => import('./company/Policy'));
 const Terms = lazy(() => import('./company/Terms'));
 const Products = lazy(() => import('./company/Products'));
-const Services = lazy(() => import('./company/Services'));
-const ProductDetail = lazy(() => import('./company/ProductDetail'));
 
 function App() {
   return (
