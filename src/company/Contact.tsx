@@ -21,17 +21,16 @@ const Contact = () => {
                                 <div id="sectionTag" className="font-medium bg-white px-[8px] py-0.5 mb-3 inline-block rounded-sm">
                                     Let's connect
                                 </div>
-                                <h1 id="sectionHeading" className=" text-[47px] font-medium">Let's Build Something Great
-                                    Together</h1>
+                                <h1 id="sectionHeading" className=" text-[47px] font-medium">Join Us in Building Something Great Together</h1>
 
-                                <p id="sectionPara" className=" mb-8">Have an IT Challenge? We're Ready to Help!</p>
+                                <p id="sectionPara" className=" mb-8">Facing an IT Challenge? We’re Here to Help!</p>
                                 <div>
                                     <input type="text" placeholder="Full name"
                                         className="placeholder:text-zinc-900 bg-transparent border text-[16px] px-5 outline-0 focus:border-zinc-900 border-zinc-300 h-12 w-full mb-4" />
                                     <input type="text" placeholder="Email address"
                                         className="placeholder:text-zinc-900 bg-transparent border text-[16px] px-5 outline-0 focus:border-zinc-900 border-zinc-300 h-12 w-full mb-4" />
                                     <textarea placeholder="Message" rows={5}
-                                        className="placeholder:text-zinc-900 bg-transparent border text-[16px] p-5 outline-0 focus:border-zinc-900 border-zinc-300 w-full mb-4"></textarea>
+                                        className="placeholder:text-zinc-900 bg-transparent border text-[16px] p-5 outline-0 focus:border-zinc-900 border-zinc-300 w-full mb-4 message-box"></textarea>
                                     <button
                                         className="w-full px-7 bg-black text-white py-3.5 text-sm font-medium transition-all hover:bg-transparent  border border-transparent hover:text-black hover:border-zinc-900">Submit</button>
 
