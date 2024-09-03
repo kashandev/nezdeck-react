@@ -43,12 +43,13 @@ const Navbar = () => {
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/about">About Us</NavLink></li>
                         <li><NavLink to="/products">Products</NavLink></li>
+                        <li><NavLink to="/contact">Contact Us</NavLink></li>
                         {/* <li><NavLink to="/services">Services</NavLink></li> */}
                     </ul>
                 </div>
                 <div>
                     <div id="headerButtons" className="flex items-center hidden lg:flex gap-2">
-                        <Link to="/contact"><Button variant="styled">Let's Connect Together</Button></Link>
+                    <Link to="/contact" target='_blank'><Button variant="styled">Let's Connect Us</Button></Link>
                     </div>
                     <button
                         onClick={handleClick}

@@ -18,13 +18,13 @@ const Home = () => {
                             <div className="pl-[20px] xl:pl-0 p-20 md:pr-40 lg:pr-0 xl:pr-[60px] xl:pr-[120px] flex flex-col gap-[3vw]">
                                 <div className="">
                                     <div
-                                        className="  bg-white px-[8px] py-0.5 mb-5 inline-block rounded-sm">Cutting-Edge IT Services</div>
-                                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-medium">Accelerate Your Business Growth with Custom IT Solutions</h1>
+                                        className="  bg-white px-[8px] py-0.5 mb-5 inline-block rounded-sm">Unlock Growth with Cutting-Edge IT Services</div>
+                                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-medium">Power Your Business Growth with Tailored IT Solutions</h1>
                                 </div>
                                 <div>
-                                    <p className=" mb-8 ">Unlock new opportunities with IT solutions tailored <br /> to your business needs.</p>
+                                    <p className=" mb-8 ">Unleash New Opportunities with Tailored IT Solutions <br />for Your Business</p>
                                     <div className="flex gap-5 items-center">
-                                        <Link to={'/products'}><Button>Start Your Journey</Button></Link>
+                                        <Link to={'/products'} target='_blank'><Button>Start Your Journey</Button></Link>
                                         <div className="flex items-center gap-3">
                                             <Link to={'/products'}>
                                                 <button

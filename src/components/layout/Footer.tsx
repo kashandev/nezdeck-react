@@ -10,8 +10,7 @@ const Footer = () => {
             <div className="col-span-2 sm:col-span-3 md:col-span-2">
                 <Link className="font-medium mb-3 text-2xl flex gap-2 items-center" to="/"><Image className="h-12"
                     src="public/dist/img/logo/logo-white.png" alt="Footer Logo" /> NEZDECK</Link>
-                <p className="w-72">At Nezdeck Systems, we empower businesses with top-tier IT solutions, ensuring
-                    growth and innovation with maximum creative freedom.</p>
+                <p className="w-72">Nezdeck Systems: Empowering Businesses with Premium IT Solutions for Growth, Innovation, and Creative Freedom.</p>
             </div>
             <div className="flex flex-col gap-4">
                 <NavLink to="/">Home</NavLink>
@@ -20,10 +19,14 @@ const Footer = () => {
                 <NavLink to="/contact">Contact Us</NavLink>
             </div>
             <div className="flex flex-col gap-4 ">
-                <Link to="/products">Manage Inventory</Link>
-                <Link to="/products">Generate PDF Reports</Link>
-                <Link to="/products">Generate Excel Reports</Link>
-                <Link to="/products">Bulk Emails Generation</Link>
+                <Link to="/products">School Management</Link>
+                <Link to="/products">Inventory Management</Link>
+                <Link to="/products">Restuarant POS(Point of Sale)</Link>
+                <Link to="/products">Retail POS(Point of Sale)</Link>
+                <Link to="/products">B2B E-commerce Website</Link>
+                <Link to="/products">Email Software</Link>
+                <Link to="/products">PDF Reports</Link>
+                <Link to="/products">Excel Reports</Link>
             </div>
             <div className="flex flex-col gap-4 ">
                 <Link to="/">Help Desk</Link>
